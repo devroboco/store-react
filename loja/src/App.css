@@ -1,0 +1,30 @@
+.App {
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.product-list {
+  text-align: center;
+}
+
+.product-list, h2{
+  font-size: 12px;
+}
+
+.product-card {
+  display: inline-block;
+  margin: 10px;
+  vertical-align: top;
+  width: 45%; /* Define a largura desejada para os produtos, ajuste conforme necessário */
+  box-sizing: border-box;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  max-height: 150px; /* Defina a altura máxima desejada para as imagens */
+}
